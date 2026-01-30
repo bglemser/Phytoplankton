@@ -4,7 +4,7 @@ Approaches or solutions that have been tried before on similar projects.
 
 **Summary of Each Work**:
 
-- **Source 1**: [Convolutional neural networks and vision transformers for Plankton Classification]
+- **Source 1**: Convolutional neural networks and vision transformers for Plankton Classification
 
   - **[Link](https://www.sciencedirect.com/science/article/pii/S157495412500281X)**
   - **Objective**:
@@ -19,6 +19,8 @@ Approaches or solutions that have been tried before on similar projects.
   - **Relation to the Project**:
   - Investigated many of the CNN architectures we used
   - using phytoplankton datasets
+  - But images could hold several species, so object detection and then classification was used --> we only need classification
+    
 
 - **Source 2**: [Title of Source 2]
 
