@@ -39,10 +39,23 @@ Approaches or solutions that have been tried before on similar projects.
   - **Relation to the Project**:
   - -we tried out ResNet and EfficientNet and also found that EfficientNet performed best
 
-- **Source 3**: [Title of Source 3]
+- **Source 3**: Classifying plankton with deep neural networks
 
-  - **[Link]()**
+  - **[Link](https://sander.ai/2015/03/17/plankton.html)**
   - **Objective**:
-  - **Methods**:
+  - blog post of the winning team from the kaggle competition explaining their used methods
+   - **Methods**:
+  - preprocessing only included rescaling the images in various ways and then performing global zero mean unit variance (ZMUV) normalization
+  - data agumentation
+    - rotation: random with angle between 0° and 360° (uniform)
+    - translation: random with shift between -10 and 10 pixels (uniform)
+    - rescaling: random with scale factor between 1/1.6 and 1.6 (log-uniform)
+    - flipping: yes or no (bernoulli)
+    - shearing: random with angle between -20° and 20° (uniform)
+    - stretching: random with stretch factor between 1/1.3 and 1.3 (log-uniform)
+  - training models with up to 16 layers at the end of competition
   - **Outcomes**:
+  - combined predictions from several models (they trained over 300 models)
   - **Relation to the Project**:
+  - its the kaggle competition we choose
+  - interesting what we are doing differently now 11 years later
