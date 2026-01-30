@@ -1,16 +1,18 @@
-# [Your Project Title Here]
+# Phytoplankton
 
 ## Repository Link
 
-[https://github.com/your_username/your_project_name]
+https://github.com/bglemser/Phytoplankton
 
 ## Description
 
-[Short project description here. Briefly summarize the problem you are trying to solve and the approach you're taking.]
+Our project is based on the following kaggle competition:
+[Link](https://www.kaggle.com/competitions/datasciencebowl/overview)
+The goal of the competition is the automated classification of plankton images. These images were optained by towing an underwater camera in the Strait of Florida between May-June 2014. 
 
 ### Task Type
 
-[Image Classification / Chatbot / Regression / Clustering / Other]
+Image Classification
 
 ### Results Summary
 
