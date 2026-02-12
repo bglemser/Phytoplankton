@@ -5,19 +5,19 @@
 ## Dataset Information
 
 ### Dataset Source
-- **Dataset Link:** [Provide a direct link to your dataset. If the dataset is private, explain the reason and provide contact information for the dataset owner]
-- **Dataset Owner/Contact:** [If applicable, provide contact information for private datasets]
+- **Dataset Link:** [https://www.kaggle.com/competitions/datasciencebowl/data]
+- **Dataset Owner/Contact:** Aurelia, Jessica Luo, Josette_BoozAllen, Josh Sullivan, Steve Mills, and Will Cukierski. National Data Science Bowl
 
 ### Dataset Characteristics
-- **Number of Observations:** [Total number of samples/records in your dataset. For time series data, also specify the temporal resolution (e.g., daily, hourly, etc.)]
-- **Number of Features:** [Total number of features in your dataset]
+- **Number of Observations:** 30.336 labeled images 
+- **Number of Features:** 1 
 
 ### Target Variable/Label
 - **Label Name:** [Name of the target variable/column]
-- **Label Type:** [Classification/Regression/Clustering/Other]
-- **Label Description:** [What does this label represent? What is the prediction task?]
-- **Label Values:** [For classification: list of classes and their meanings. For regression: range of values. For other tasks: describe the label structure]
-- **Label Distribution:** [Brief description of class balance for classification or value distribution for regression]
+- **Label Type:** Classification
+- **Label Description:** Scientifically meaningful groupings of organisms and objects
+- **Label Values:** There are 121 classes that each represent a meaningfull grouping of organisms and object. These grous are not identical with taxonomic groups
+- **Label Distribution:** Very unbalanced dataset. The smallest class only has 9 images while the largest class has 1979 images
 
 ### Feature Description
 [Provide a brief description of each feature or group of features in your dataset. If you have many features, group them logically and describe each group. Include information about data types, ranges, and what each feature represents.]
