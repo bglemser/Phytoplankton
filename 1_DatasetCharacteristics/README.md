@@ -20,7 +20,9 @@
 - **Label Distribution:** Very unbalanced dataset. The smallest class only has 9 images while the largest class has 1979 images
 
 ### Feature Description
-[Provide a brief description of each feature or group of features in your dataset. If you have many features, group them logically and describe each group. Include information about data types, ranges, and what each feature represents.]
+[!image](./plankton-identification.pdf)
+The feature we are workin it is the group name provided. It is a classification feature. All the groups (121) that are there are represented in the image above. Red boxes indicate our categories, blue boxes indicate major groups, solid lines indicate direct relationships, and dashed lines indicate minor relationships or shape similarities.
+
 
 **Example format:**
 - **Feature 1 (feature_name):** [Description of what this feature represents, data type, and any relevant details]
