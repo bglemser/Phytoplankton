@@ -21,6 +21,7 @@
 
 ### Feature Description
 ![class_image](./plankton_identification.pdf)
+
 The feature we are workin it is the group name provided. It is a classification feature. All the groups (121) that are there are represented in the image above. Red boxes indicate our categories, blue boxes indicate major groups, solid lines indicate direct relationships, and dashed lines indicate minor relationships or shape similarities.
 
 
