@@ -13,7 +13,7 @@
 - **Number of Features:** 1 
 
 ### Target Variable/Label
-- **Label Name:** [Name of the target variable/column]
+- **Label Name:** The folder name in which the images are is the label of theses images as it is a classification task.
 - **Label Type:** Classification
 - **Label Description:** Scientifically meaningful groupings of organisms and objects
 - **Label Values:** There are 121 classes that each represent a meaningfull grouping of organisms and object. These grous are not identical with taxonomic groups
