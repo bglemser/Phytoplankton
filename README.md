@@ -17,14 +17,14 @@ Image Classification
 ### Results Summary
 
 #### Best Model Performance
-- **Best Model:** [Name and type of the best-performing model"]
-- **Evaluation Metric:** [Primary metric used, e.g., Accuracy, F1-Score, MSE, MAE]
-- **Final Performance:** [Best score achieved, e.g., 95% accuracy, F1-score of 0.87, MSE of 0.12]
+- **Best Model:** EfficientNet B1
+- **Evaluation Metric:** F1 score
+- **Final Performance:** 0.72 Macro F1 Score
 
 #### Model Comparison
-- **Baseline Performance:** [Baseline model performance for comparison]
-- **Improvement Over Baseline:** [Quantitative improvement, e.g., "+12% accuracy", "25% reduction in MSE"]
-- **Best Alternative Model:** [Second-best model and its performance]
+- **Baseline Performance:** 0.75 Macro F1 score but with a smaller dataset using only half of the classes
+- **Improvement Over Baseline:** Lost a bit on Macro F1 score (0,03) but not as much as expected with 60 more classes
+- **Best Alternative Model:** EfficientNetV2
 
 #### Key Insights
 - **Most Important Features:** [Top 3-5 features that drive model performance]
