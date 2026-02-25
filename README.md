@@ -27,10 +27,10 @@ Image Classification
 - **Best Alternative Model:** EfficientNetV2
 
 #### Key Insights
-- **Most Important Features:** [Top 3-5 features that drive model performance]
-- **Model Strengths:** [What the model does well]
-- **Model Limitations:** [Known limitations and failure cases]
-- **Business Impact:** [Practical implications of the model performance]
+- **Most Important Features:** Data augmentation, image size, normalization 
+- **Model Strengths:** Good performance in classes with many images
+- **Model Limitations:** Limitations with unknown classes
+- **Business Impact:** Easier detection of ocean health
 
 ## Documentation
 
